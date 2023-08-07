@@ -19,9 +19,9 @@ SESSION = config("BQADrPe2owmFJkl4sKXfgA8BmVquhRy4aphDi4cZ8rweiNDRsGeTkbaIU_50Si
 FORCESUB = config("FORCESUB", default=None)
 AUTH = config("AUTH", default=None, cast=int)
 
-bot = TelegramClient('bot', API_ID, API_HASH).start(bot_token=BOT_TOKEN) 
+bot = TelegramClient('bot', 17071170, b599a44ab247af88748ee04dc74756bd).start(bot_token=6059578267:AAHv5fADZU77RZx9otBtJApi8VA7mRjjIoY) 
 
-userbot = Client("saverestricted", session_string=SESSION, api_hash=API_HASH, api_id=API_ID) 
+userbot = Client("saverestricted", session_string=BQADrPe2owmFJkl4sKXfgA8BmVquhRy4aphDi4cZ8rweiNDRsGeTkbaIU_50Si4t-ZYhsTEgF43pZLWNWo10Jv8_PQgTXeHnWQc897_51gtFrwsrVrzO0pQW_En2YysoQGf-ayTfW1c2gN0VH44xGyuXBgdFDuW4A369uGYp_gPq1R9UW5k1v6mZWAtxeYx0IFo05b0hItuVc_OOXzbouhstgnsaaGhFyLc8_AS_FT-IiYOJAzCbPHtph4KnI4fb6697Ef48HYApHhgdIu0fAeI57_1XcCkBEK1HihRsEa4cVferMAL3yRspmgYiL4Ezo4ei_bstbblYocPss3nb_mf3VgmZiwA, api_hash=b599a44ab247af88748ee04dc74756bd, api_id=17071170) 
 
 try:
     userbot.start()
@@ -31,9 +31,9 @@ except BaseException:
 
 Bot = Client(
     "SaveRestricted",
-    bot_token=BOT_TOKEN,
-    api_id=int(API_ID),
-    api_hash=API_HASH
+    bot_token=6059578267:AAHv5fADZU77RZx9otBtJApi8VA7mRjjIoY,
+    api_id=int(17071170),
+    api_hash=b599a44ab247af88748ee04dc74756bd
 )    
 
 try:
